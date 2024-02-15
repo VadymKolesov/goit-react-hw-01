@@ -1,0 +1,24 @@
+.table {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.title th {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(210, 210, 210);
+}
+
+.row td {
+  padding: 10px 0;
+  border: 1px solid black;
+}
